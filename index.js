@@ -1,9 +1,6 @@
 
 const express = require('express');
 const app = express();
-const pgp = require('pg-promise')();
-const mustacheExpress = require('mustache-express');
-const bodyParser = require("body-parser");
 //declare constants
 
 //app.engine('html', mustacheExpress());
