@@ -1,0 +1,398 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Carson Hyde
+    base(target='_blank')
+    link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/style.css', rel='stylesheet')
+    link(href='vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+  body#page-top.index
+    nav#mainNav.navbar.navbar-default.navbar-fixed-top.navbar-custom
+      .container
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li.hidden
+              a(href='#page-top')
+            li.page-scroll
+              a(href='#experience') Experience
+            li.page-scroll
+              a(href='#portfolio') Portfolio
+            li.page-scroll
+              a(href='#about') About
+            li.page-scroll
+              a(href='#contact') Contact
+    header(style='background-image: url(img/bicycle-wide.jpg);')
+      .container
+        .row
+          .col-lg-12
+            img#profile.img-responsive(src='img/me8.jpg', alt='')
+            .intro-text
+              span.name Carson Hyde
+
+              span.skills Fullstack Web Developer & Cyclist
+    section#experience
+      .container
+        .row
+          .col-lg-12.text-center
+            h2 Experience
+            hr
+        .row
+          .col-lg-12
+            ul.timeline
+             li
+                .timeline-image
+                  br
+                  h5
+                    | Oct 2016
+                    br
+                    | -
+                    br
+                    | Jan 2017
+                    br
+                .timeline-panel
+                  .timeline-heading
+                    h4 General Assembly
+                    h4.subheading Fullstack Web Developer
+                  .timeline-body
+                    p Participated in a rigorous project based web development bootcamp taught by seasoned
+                      | industry professionals. Covered JavaScript, Ruby, HTML, CSS, Rails, Express, Sinatra,
+                      | React JS, Agile Development, Mustache, Materialize, Bootstrap, Heroku, functional programming,
+                      | and version control using Git.
+             li
+                .timeline-image
+                  br
+                  h5
+                    | May 2016
+                    br
+                    | -
+                    br
+                    | June 2016
+                    br
+                .timeline-panel
+                  .timeline-heading
+                    h4 Ray Super Remote
+                    h4.subheading Tier 1 Support Specialist
+                  .timeline-body
+                    p Tested newest software-build and ensured compatibility with several popular media devices and wrote installation and trouble-shooting guides for consumers.
+             li
+                .timeline-image
+                  br
+                  h5
+                    | Nov 2015
+                    br
+                    | -
+                    br
+                    | May 2016
+                    br
+                .timeline-panel
+                  .timeline-heading
+                    h4 OSCAR Insurance
+                    h4.subheading Care Guide
+                  .timeline-body
+                    p Took inbound calls and secure messages from members and assisted with navigating eligibility, billing, claims, provider/network issues, member technology, and benefits.
+             li
+                .timeline-image
+                  br
+                  h5
+                    | Feb 2015
+                    br
+                    | -
+                    br
+                    | Nov 2015
+                    br
+                .timeline-panel
+                  .timeline-heading
+                    h4 Munchery
+                    h4.subheading Operations Coordinator & Local Support Team Lead
+                  .timeline-body
+                    p Responsible for conducting interviews, hiring, on-boarding, training, scheduling, corrective counseling, payroll, and terminations of team members
+    section#portfolio
+      .container
+        .row
+          .col-lg-12.text-center
+            h2 Portfolio
+            hr
+        .row
+          .col-sm-4.portfolio-item
+            a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
+              .caption
+                .caption-content
+                  i.fa.fa-search-plus.fa-3x
+
+              img.img-responsive(src='img/portfolio/whitty.png', alt='')
+          .col-sm-4.portfolio-item
+            a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
+              .caption
+                .caption-content
+                  i.fa.fa-search-plus.fa-3x
+
+              img.img-responsive(src='img/portfolio/furry.png', alt='')
+          .col-sm-4.portfolio-item
+            a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
+              .caption
+                .caption-content
+                  i.fa.fa-search-plus.fa-3x
+
+              img.img-responsive(src='img/portfolio/unbearable.png', alt='')
+          .col-sm-4.portfolio-item
+            a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
+              .caption
+                .caption-content
+                  i.fa.fa-search-plus.fa-3x
+
+              img.img-responsive(src='img/portfolio/rpo.png', alt='')
+          .col-sm-4.portfolio-item
+            a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
+              .caption
+                .caption-content
+                  i.fa.fa-search-plus.fa-3x
+
+              img.img-responsive(src='img/portfolio/compliments.png', alt='')
+          .col-sm-4.portfolio-item
+            a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
+              .caption
+                .caption-content
+                  i.fa.fa-search-plus.fa-3x
+
+              img.img-responsive(src='img/portfolio/portfolio.png', alt='')
+    section#about.success
+      .container
+        .row
+          .col-lg-12.text-center
+            h2 About
+
+            hr
+        .row
+          .col-lg-6
+            p Carson is a Brooklyn based fullstack web developer who likes coffee, bikes, ethics, and everything to do with cats.
+            </br>
+            p Feel free to email me (carsonmhyde@gmail.com) about projects or gigs, get a PDF version of my resume, or find me on social media.
+            <br>
+            p Or check out my <a href="https://codepen.io/donutdespair">Codepen</a> for weird code bits.
+          .col-lg-6
+            h4 Languages:
+
+            p HTML, CSS, JavaScript, and Ruby
+            h4 Frameworks:
+
+            p Express JS and Ruby on Rails
+            h4 More Skills:
+
+            p jQuery, Sinatra, Mustache JS, Node.js, Bootstrap
+    footer#contact.text-center
+      .footer-above
+        .container
+          .row
+            .footer-col.col-md-4
+              h3 Current favorite programming concept:
+              p JavaScript's keyword <a href="http://codepen.io/donutdespair/pen/KNjMyN">"this"</a>
+            .footer-col.col-md-4
+              h3 Contact
+              ul.list-inline
+                li
+                  a.btn-social.btn-outline(href='mailto:carsonmhyde@gmail.com')
+                    i.fa.fa-envelope
+                li
+                  a.btn-social.btn-outline(href='img/chyderes-12-22.pdf')
+                    i.fa.fa-fw.fa-save
+                li
+                  a.btn-social.btn-outline(href='https://twitter.com/coffeedcode')
+                    i.fa.fa-fw.fa-twitter
+                li
+                  a.btn-social.btn-outline(href='https://www.linkedin.com/in/carsonmhyde')
+                    i.fa.fa-fw.fa-linkedin
+                li
+                  a.btn-social.btn-outline(href='https://github.com/donutdespair')
+                    i.fa.fa-fw.fa-github
+            .footer-col.col-md-4
+              h3 This portfolio runs on:
+              p Express JS, JS/jQuery, Pug, Font Awesome, and Bootstrap
+    .scroll-top.page-scroll.hidden-sm.hidden-xs.hidden-lg.hidden-md
+      a.btn.btn-primary(href='#page-top')
+        i.fa.fa-chevron-up
+    #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                h2 Whitty
+                hr
+
+                img.img-responsive.img-centered(src='img/portfolio/whitty.png', alt='')
+                p Whitty is a CRUD app that allows you to read poems by Whitman and save your analyses to the app's
+                  |   database for future reference. It calls on an external API (http://poetrydb.org) to return poem user queries.
+                  | Whitty is built on Express JS, jQuery, AJAX, Postgres, Mustache Express, and Bootstrap.
+                ul.list-inline.item-details
+                  li
+                     strong
+                      a(href='https://github.com/donutdespair/Whitty') On GitHub
+                  li
+                     strong
+                      a(href='https://whitty.herokuapp.com') On Heroku
+
+                button.btn.btn-default(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                    Close
+    #portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                h2 Furry Slaughter: In the Chamber of Rodents
+                hr
+
+                img.img-responsive.img-centered(src='img/portfolio/furry.png', alt='')
+                p A new, New York subway based take on the classic carnival game Whack-a-Mole.
+                  | On start, a timer ticks down from 60 and rat images appear at random in specified locations
+                  | (unmarked but where rats consistently appear). Points are awarded on successful clicks.
+                  | You win if you can score more than 30 points in a minute. On win or lose, you have the option
+                  | to restart. This project is built on jQuery, HTML, and CSS.
+                ul.list-inline.item-details
+                  li
+                     strong
+                      a(href='https://github.com/donutdespair/furry_slaughter') On GitHub
+                  li
+                     strong
+                      a(href='https://donutdespair.github.io/furry_slaughter/') Play On GitHub Pages
+
+                button.btn.btn-default(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                    Close
+    #portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                h2 Unbearable Games
+                hr
+
+                img.img-responsive.img-centered(src='img/portfolio/unbearable.png', alt='')
+                p Unbearable Games is video game company website I developed as a final project for
+                  | an introductory web development course. Most of the writing is original content I wrote
+                  | (some of the reviews are pulled from reviews for ET on Atari and the employee quotes
+                  | are from Silicon Valley and 30 Rock). I got the idea for Moonside mode from a quest in the
+                  | SNES game Earthbound.The games, though I wish they were real, are sadly not...yet.
+                  | This project is all hand coded HTML, CSS, and some vanilla JavaScript.
+
+                ul.list-inline.item-details
+                  li
+                     strong
+                      a(href='https://github.com/donutdespair/Carson-Final') On GitHub
+                  li
+                     strong
+                      a(href='http://unbearablegames.bitballoon.com/') On BitBalloon
+
+                button.btn.btn-default(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                    Close
+    #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                h2 Ready Player One Book Promo Project
+                hr
+
+                img.img-responsive.img-centered(src='img/portfolio/rpo.png', alt='')
+                p This is a promotional website I made as a project for an introductory web development course.
+                  | We were tasked with creating a promotional website for some media entity or product.
+                  | I picked on of my favorite books of the year. This is all handcoded HTML and CSS.
+
+                ul.list-inline.item-details
+                  li
+                     strong
+                      a(href='https://github.com/donutdespair/Carson-Announcement-Project') On GitHub
+                  li
+                  strong
+                      a(href='http://rpopromo.bitballoon.com/') On BitBalloon
+
+                button.btn.btn-default(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                    Close
+    #portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                h2 General Assembly Ruby Compliment Generator
+                hr
+
+                img.img-responsive.img-centered(src='img/portfolio/compliments.png', alt='')
+                p This was a homework assignment at General Assembly. If you're feeling down or
+                  | overwhelmed while powering through Ruby, hit the compliment button. When you're
+                  | feeling better, check out the Ruby docs (they're especially well written). This app was
+                  | built on Sinatra and uses Sintra's routes to display a new compliment and background
+                  | color upon clicking the compliment button.
+
+                ul.list-inline.item-details
+                  li
+                     strong
+                      a(href='https://github.com/donutdespair/complimentgenerator') On GitHub
+                  li
+                     Service
+                     strong
+                      a(href='https://complimenterapp.herokuapp.com/') On Heroku
+
+                button.btn.btn-default(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                    Close
+    #portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                h2 My Portfolio
+                hr
+
+                img.img-responsive.img-centered(src='img/portfolio/portfolio.png', alt='')
+                p This has some information about me, my skills, and some information about projects I've made.
+                  | My portfolio is built on Express JS, Boostrap, Pug, and a little jQuery. I chose Express over a static page because I'm
+                  | working on a blog to add in the future and will need the routing capabilities. I also wanted to get
+                  | some practice with another templating engine (Pug) and have the option to use Node Modules.
+
+                ul.list-inline.item-details
+                  li
+                     strong
+                      a(href='https://github.com/donutdespair/portfolio') On GitHub
+                  li
+                     Service
+                     strong
+                      a(href='https://carsonmhyde.herokuapp.com/') On Heroku
+
+                button.btn.btn-default(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                    Close
+
+    script(src='vendor/jquery/jquery.min.js')
+    script(src='vendor/bootstrap/js/bootstrap.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+    script(src='js/script.js')

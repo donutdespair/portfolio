@@ -1,0 +1,391 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    %title Carson Hyde
+    / Bootstrap Core CSS
+    %link{:href => "vendor/bootstrap/css/bootstrap.min.css", :rel => "stylesheet"}/
+    / Theme CSS
+    %link{:href => "css/style.css", :rel => "stylesheet"}/
+    / Custom Fonts
+    %link{:href => "vendor/font-awesome/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
+  %body#page-top.index
+    / Navigation
+    %nav#mainNav.navbar.navbar-default.navbar-fixed-top.navbar-custom
+      .container
+        / Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.hidden
+              %a{:href => "#page-top"}
+            %li.page-scroll
+              %a{:href => "#experience"} Experience
+            %li.page-scroll
+              %a{:href => "#portfolio"} Portfolio
+            %li.page-scroll
+              %a{:href => "#about"} About
+            %li.page-scroll
+              %a{:href => "#contact"} Contact
+        / /.navbar-collapse
+      / /.container-fluid
+    / Header
+    %header{:style => "background-image: url(img/bicycle-wide.jpg);"}
+      .container
+        .row
+          .col-lg-12
+            %img#profile.img-responsive{:alt => "", :src => "img/me8.jpg"}/
+            .intro-text
+              %span.name Carson Hyde
+              %span.skills Fullstack Web Developer | Cyclist
+    / Resume Section
+    %section#experience
+      .container
+        .row
+          .col-lg-12.text-center
+            %h2 Experience
+            %hr/
+        .row
+          .col-lg-12
+            %ul.timeline
+              %li
+                .timeline-image
+                  %h5
+                    %br>/
+                    May 2016
+                    %br/
+                    \-
+                    %br/
+                    June 2016
+                .timeline-panel
+                  .timeline-heading
+                    %h4 Ray Super Remote
+                    %h4.subheading Tier 1 Support Specialist
+                  .timeline-body
+                    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.
+              %li.timeline-inverted
+                .timeline-image
+                  %h5
+                    %br>/
+                    Nov 2015
+                    %br/
+                    \-
+                    %br/
+                    May 2016
+                .timeline-panel
+                  .timeline-heading
+                    %h4 OSCAR Insurance
+                    %h4.subheading Care Guide
+                  .timeline-body
+                    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.
+              %li
+                .timeline-image
+                  %h5
+                    %br>/
+                    Dec 2009
+                    %br/
+                    \-
+                    %br/
+                    May 2011
+                .timeline-panel
+                  .timeline-heading
+                    %h4 Munchery
+                    %h4.subheading Operations Coordinator | Local Support Team Lead
+                  .timeline-body
+                    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.
+    / Portfolio Grid Section
+    %section#portfolio
+      .container
+        .row
+          .col-lg-12.text-center
+            %h2 Portfolio
+            %hr/
+        .row
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal1"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/whitty.png"}/
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal2"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/furry.png"}/
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal3"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/unbearable.png"}/
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal4"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/rpo.png"}/
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal5"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/compliments.png"}/
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal6"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/submarine.png"}/
+    / About Section
+    %section#about.success
+      .container
+        .row
+          .col-lg-12.text-center
+            %h2 About
+            %br/
+            %hr/
+        .row
+          .col-lg-4.col-lg-offset-2
+            %p Swat turds around the house favor packaging over toy yet Gate keepers of hell. Stand in front of the computer screen toy mouse squeak roll over yet use lap as chair, or stares at human while pushing stuff off a table attack dog, run away and pretend to be victim yet mark territory eat grass, throw it back up.
+          .col-lg-4
+            %p The dog smells bad groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!, so pee in the shoe.
+    / Footer/Contact
+    %footer#contact.text-center
+      .footer-above
+        .container
+          .row
+            .footer-col.col-md-4
+              %h3 Some stuff.
+              %p
+                Other contact info.
+            .footer-col.col-md-4
+              %h3 Contact
+              %ul.list-inline
+                %li
+                  %a.btn-social.btn-outline{:href => "#"}
+                    %i.fa.fa-envelope
+                %li
+                  %a.btn-social.btn-outline{:href => "img/chyderes-12-22.pdf"}
+                    %i.fa.fa-fw.fa-save
+                %li
+                  %a.btn-social.btn-outline{:href => "#"}
+                    %i.fa.fa-fw.fa-twitter
+                %li
+                  %a.btn-social.btn-outline{:href => "#"}
+                    %i.fa.fa-fw.fa-linkedin
+                %li
+                  %a.btn-social.btn-outline{:href => "#"}
+                    %i.fa.fa-fw.fa-github
+            .footer-col.col-md-4
+              %h3 More about.
+              %p Some stuff.
+    / Scroll to Top Button (Only visible on small and extra-small screen sizes)
+    .scroll-top.page-scroll.hidden-sm.hidden-xs.hidden-lg.hidden-md
+      %a.btn.btn-primary{:href => "#page-top"}
+        %i.fa.fa-chevron-up
+    / Portfolio Modals
+    #portfolioModal1.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-content
+        .close-modal{"data-dismiss" => "modal"}
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                %h2 Project Title
+                %hr.star-primary/
+                %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/whitty.png"}/
+                %p
+                  Use this area of the page to describe your project. The icon above is part of a free icon set by
+                  = succeed "." do
+                    %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+                %ul.list-inline.item-details
+                  %li
+                    Client:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                  %li
+                    Date:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} April 2014
+                  %li
+                    Service:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Web Development
+                %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+                  %i.fa.fa-times
+                  Close
+    #portfolioModal2.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-content
+        .close-modal{"data-dismiss" => "modal"}
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                %h2 Project Title
+                %hr.star-primary/
+                %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/furry.png"}/
+                %p
+                  Use this area of the page to describe your project. The icon above is part of a free icon set by
+                  = succeed "." do
+                    %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+                %ul.list-inline.item-details
+                  %li
+                    Client:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                  %li
+                    Date:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} April 2014
+                  %li
+                    Service:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Web Development
+                %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+                  %i.fa.fa-times
+                  Close
+    #portfolioModal3.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-content
+        .close-modal{"data-dismiss" => "modal"}
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                %h2 Project Title
+                %hr.star-primary/
+                %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/unbearable.png"}/
+                %p
+                  Use this area of the page to describe your project. The icon above is part of a free icon set by
+                  = succeed "." do
+                    %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+                %ul.list-inline.item-details
+                  %li
+                    Client:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                  %li
+                    Date:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} April 2014
+                  %li
+                    Service:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Web Development
+                %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+                  %i.fa.fa-times
+                  Close
+    #portfolioModal4.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-content
+        .close-modal{"data-dismiss" => "modal"}
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                %h2 Project Title
+                %hr.star-primary/
+                %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/rpo.png"}/
+                %p
+                  Use this area of the page to describe your project. The icon above is part of a free icon set by
+                  = succeed "." do
+                    %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+                %ul.list-inline.item-details
+                  %li
+                    Client:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                  %li
+                    Date:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} April 2014
+                  %li
+                    Service:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Web Development
+                %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+                  %i.fa.fa-times
+                  Close
+    #portfolioModal5.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-content
+        .close-modal{"data-dismiss" => "modal"}
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                %h2 Project Title
+                %hr.star-primary/
+                %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/compliments.png"}/
+                %p
+                  Use this area of the page to describe your project. The icon above is part of a free icon set by
+                  = succeed "." do
+                    %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+                %ul.list-inline.item-details
+                  %li
+                    Client:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                  %li
+                    Date:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} April 2014
+                  %li
+                    Service:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Web Development
+                %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+                  %i.fa.fa-times
+                  Close
+    #portfolioModal6.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-content
+        .close-modal{"data-dismiss" => "modal"}
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                %h2 Project Title
+                %hr.star-primary/
+                %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/submarine.png"}/
+                %p
+                  Use this area of the page to describe your project. The icon above is part of a free icon set by
+                  = succeed "." do
+                    %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+                %ul.list-inline.item-details
+                  %li
+                    Client:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                  %li
+                    Date:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} April 2014
+                  %li
+                    Service:
+                    %strong
+                      %a{:href => "http://startbootstrap.com"} Web Development
+                %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+                  %i.fa.fa-times
+                  Close
+    / jQuery
+    %script{:src => "vendor/jquery/jquery.min.js"}
+    / Bootstrap Core JavaScript
+    %script{:src => "vendor/bootstrap/js/bootstrap.min.js"}
+    / Plugin JavaScript
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"}
+    / Theme JavaScript
+    %script{:src => "js/freelancer.js"}
